@@ -1,15 +1,23 @@
 {
-  "name": "learningnew",
+  "name": "learningnew_things",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapanaawasthi/LearningNew_Things.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sapanaawasthi/LearningNew_Things/issues"
+  },
+  "homepage": "https://github.com/sapanaawasthi/LearningNew_Things#readme",
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.3"
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
   }
 }
