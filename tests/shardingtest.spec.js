@@ -1,5 +1,5 @@
 const {test, expect} = require ('@playwright/test');
-test.skip('verifyTest1',async ({page})=>
+test.skip('TC1 TF#3',async ({page})=>
 {
     await page.goto ('https://www.google.com');
     await expect(page).toHaveTitle('Google');
@@ -17,7 +17,7 @@ test.skip('verifyTest1',async ({page})=>
     console.log("link text print:",value1); 
     })
 
-test.skip('verifyTest2',async ({page})=>
+test.skip('TC2 TF#3',async ({page})=>
 {
   
    await page.goto ('https://www.facebook.com/');
@@ -30,7 +30,7 @@ test.skip('verifyTest2',async ({page})=>
 
 )
 
-test.skip ('Verify test 3',async ({page})=>
+test.skip ('TC3 TF#3',async ({page})=>
 {
  await page.goto("https://www.myntra.com/");
  const pageTittle =await page.title();
@@ -40,7 +40,7 @@ test.skip ('Verify test 3',async ({page})=>
 }
 )
 
-test.skip ('Verify test 4',async ({page})=>
+test.skip ('TC4  TF#3',async ({page})=>
 {
  await page.goto("https://www.flipkart.com//");
  const pageTittle1 =await page.title();
